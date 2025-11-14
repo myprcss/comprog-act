@@ -7,7 +7,7 @@ int main()
 {
     printf("Using if-else condition to check whether the given number is even or odd.\n");
 printf("\n");
-    int givenNumber = 85;
+    int givenNumber = 42;
     if(givenNumber %2 ==0) {
         printf("The number %d is even.", givenNumber);
     }else{

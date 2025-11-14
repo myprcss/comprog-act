@@ -6,14 +6,14 @@
  int main(){
 printf("Using while loop to print numbers from 1 to 10\n");
     int a = 1;
-    while (a <= 10){
+    while (a <= 15){
         printf(" %d ", a);
      a++;}
 printf("\n");
 printf("\n");
 printf("Using for loop to print even numbers from 2 to 20\n");
     int b;
-    for(b = 2; b <= 20; b +=2){
+    for(b = 20; b >= 2; b -=2){
         printf(" %d ", b);
     }
 printf("\n");
@@ -24,7 +24,7 @@ printf("Using do-loop to print numbers from 1 to 5\n");
         printf(" %d ", c);
         c++;
     }
-    while (c<=5);
+    while (c<=10);
 printf("\n");
 printf("\n");
     return 0;
